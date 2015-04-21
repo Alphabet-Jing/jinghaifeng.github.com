@@ -6,7 +6,7 @@ tagline: 学习 思考 练习 奉献
 {% include JB/setup %}
 [1]: http://img5.douban.com/mpic/s1113106.jpg
 
-## 本周推荐书籍
+### 本周推荐书籍
 
 ![icon][1]
 
