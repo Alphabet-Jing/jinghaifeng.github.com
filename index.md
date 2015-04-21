@@ -10,7 +10,7 @@ tagline: 学习 思考 练习 奉献
 
 ![icon][1]
 
-[**计算机程序构造与解释**](href=“http://book.douban.com/subject/1148282/)
+[**计算机程序构造与解释**](http://book.douban.com/subject/1148282/)
 
 `关于作者`
 
