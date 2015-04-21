@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Alex Jing 首页推荐
+title: 首页推荐
 tagline: 学习 思考 练习 奉献
 ---
 {% include JB/setup %}
