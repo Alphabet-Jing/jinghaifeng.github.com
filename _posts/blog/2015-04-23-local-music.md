@@ -10,7 +10,7 @@ tags: [Media,Android,数据库,UI]
 ##截屏
 ![shot](http://7xiqgb.com1.z0.glb.clouddn.com/shot.png)
 
-##[项目GitHub地址](https://github.com/JingHaifeng/LocalAudioDemo)
+[项目GitHub地址](https://github.com/JingHaifeng/LocalAudioDemo)
 
 ##Overview
 ####难点
@@ -95,14 +95,14 @@ CursorAdapter在3.0之后版本加入API，使用V4包可适配2.2之后版本�
     }
 
 ##事件监听、媒体播放
-有两个个事件需要监听
+有两个事件需要监听：
 
 1. item click
 2. list scroll
 
-点击后MediaPlayer状态：播放、暂停、切换
+点击后MediaPlayer状态：播放、暂停、切换。
 
-滚动时，动态刷新标题、播放时间等UI对象，item的状体能正常显示。
+滚动时，动态刷新标题、播放时间等UI对象，item的状态能正常显示。
 
     private AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
             @Override
@@ -162,7 +162,7 @@ CursorAdapter在3.0之后版本加入API，使用V4包可适配2.2之后版本�
             }
 
 ##UI刷新
-每隔100ms查询播放状态，刷新时间显示
+每隔100ms查询播放状态，刷新显示时间。
 
  	@Override
     public void handleMessage(Message msg) {
