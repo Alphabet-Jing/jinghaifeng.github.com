@@ -32,3 +32,4 @@ Julie Sussman是作家和编辑，同时使用自然语言和计算机语言写�
 [***Markdown语法说明(中文版)***](http://www.appinn.com/markdown/)
 
 ### 最新博文
+####[本地音乐Demo](http://www.jinghaifeng.com/android/2015/04/23/local-music/)
