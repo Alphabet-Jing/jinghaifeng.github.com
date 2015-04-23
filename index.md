@@ -31,13 +31,4 @@ Julie Sussman是作家和编辑，同时使用自然语言和计算机语言写�
 
 [***Markdown语法说明(中文版)***](http://www.appinn.com/markdown/)
 
-
-### 我的GitHub开源项目
-
-[***SelectableTagGroup***](https://github.com/JingHaifeng/SelectableTagGroup)
-
->Android简单Tag控件，自适应屏幕宽度并换行
-
-[***IRecipes***](https://github.com/JingHaifeng/IRecipes)
-
->Android菜谱应用，数据来源于聚合数据
+### 最新博文
