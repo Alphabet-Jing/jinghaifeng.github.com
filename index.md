@@ -33,4 +33,6 @@ Julie Sussman是作家和编辑，同时使用自然语言和计算机语言写�
 
 ## 最新博文
 
+###[[开源]实现顺滑过渡动画的LoadingView](http://www.jinghaifeng.com/android/2015/04/29/loading-drawable/)
+
 ###[本地音乐Demo](http://www.jinghaifeng.com/android/2015/04/23/local-music/)
