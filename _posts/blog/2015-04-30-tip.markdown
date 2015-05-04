@@ -1,0 +1,3 @@
+###[MVP 模型](http://antonioleiva.com/mvp-android/)
+
+####[检测app打开与关闭](http://engineering.meetme.com/2015/04/android-determine-when-app-is-opened-or-closed/)
