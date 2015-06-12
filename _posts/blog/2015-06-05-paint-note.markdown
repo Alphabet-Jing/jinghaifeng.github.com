@@ -6,6 +6,7 @@ title: "[转]Paint笔记"
 categories: [Android]
 tags: [Android,UI]
 ---
+{% include JB/setup %}
 
 #Paint笔记
 
