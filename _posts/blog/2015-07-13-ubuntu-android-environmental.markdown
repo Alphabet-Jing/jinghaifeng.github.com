@@ -17,31 +17,27 @@ tags: [Android]
 * 同时在`/etc/profile.d/`目录下，建立`java_home.sh`、`android_home.sh`、`android_studio.sh`、`genymotion.sh`等脚本，差量地配置各软件的环境变量。好处是：可不用修改系统本身的
 配置文件，增删改某一脚本时，并不会影响其他脚本(修改后需要使用`source`命令或重新登录)。
 
-	```
-# /etc/profile 文件中声明将会遍历profile.d中的 *.sh 文件
-if [-d /etc/profile.d]; 
-then
-  for i in /etc/profile.d/*.sh; 
-  do
-    if [-r $i]; then
-      .$i
-    fi
-  done
-  unset i
-fi
-	```
+		# /etc/profile 文件中声明将会遍历profile.d中的 *.sh 文件
+		if [-d /etc/profile.d]; 
+		  then 
+		  for i in /etc/profile.d/*.sh;	 
+		  do 
+		    if [-r $i]; then 
+		      .$i 
+		    fi 
+		  done 
+		  unset i 
+		fi          
+
 
 ##JDK & ADK环境
 * 获取 JDK 及 ADK 压缩包，解压至`/home/{user}/Application`。
 * 通过pwd获取绝对路径（自信手打亦可...），配置 JAVA_HOME 、JRE_HOME 和 ANDROID_HOME。
 * 将 ADK 中的 tools 、 platform-tools 添加至 PATH。
 
-	
-	```
- # 以 android_home.sh 为例
- export ANDROID_HOME=/home/{user}/Application/{android_sdk}
- export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
-	```
+		# 以 android_home.sh 为例
+		export ANDROID_HOME=/home/{user}/Application/{android_sdk}
+		export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 
 ##Android Studio配置
 * 获取 Android Studio 压缩包，解压至`/home/{user}/Application`。
