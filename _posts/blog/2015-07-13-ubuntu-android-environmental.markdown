@@ -45,14 +45,12 @@ tags: [Android]
 * 修改`idea.properties`，末尾处添加`disable.android.first.run=true`。防止因`google`被墙，导致 Android Stduio 卡在初始界面。
 * 修改`studio.vmoptions`，修改内存分配，防止 Android Studio 在某些情况下出现`OutOfMemory`。
 
-	```
- # 初始堆内存块
- -Xms1024m 
- # 最大允许堆内存
- -Xmx2048m
- ...
+		# 初始堆内存块
+		-Xms1024m 
+		# 最大允许堆内存
+		-Xmx2048m
+		...
 	
-	```
 ##Git 配置
 
 * 安装命令`sudo apt-get install git` （版本较老的 Debian 或 Ubuntu 可用`sudo apt-get install git-core`）。
