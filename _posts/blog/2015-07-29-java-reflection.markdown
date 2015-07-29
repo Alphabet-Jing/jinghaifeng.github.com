@@ -10,6 +10,7 @@ tags: [Java]
 
 #公共技术点之 Java 反射 Recflection
 [**转自 codeKK**](http://codekk.com/open-source-project-analysis/detail/Android/Mr.Simple/%E5%85%AC%E5%85%B1%E6%8A%80%E6%9C%AF%E7%82%B9%E4%B9%8B%20Java%20%E5%8F%8D%E5%B0%84%20Reflection)
+
 ## 1. 了解 Java中的反射
 ###1.1 什么是Java的反射
 Java 反射时可以让我们在运行时获取类的函数、属性、父类、接口等 Class 内部信息的机制。通过反射还可以让我们在运行期实例化对象，调用方法，通过调用 get/set 方法获取变量的值，即使方法或属性是私有的也可以通过反射的形式调用，这种“看透 class "的能力叫做`内省`，这种能力在框架开发中尤为重要。有些情况下，我们需要使用的类在运行时才能确定，这个时候我们不能在编译期就使用它，因此只能通过反射的形式来使用在运行时才存在的类（该类符合某种特定的规范，例如 JDBC ），这是反射用得比较多的场景。
